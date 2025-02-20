@@ -41,6 +41,7 @@
     "eslint-plugin-unused-imports": "4.1.4",
     "json5": "2.2.3",
     "lint-staged": "15.4.3",
+    "pnpm": "^10.4.1",
     "prettier": "3.5.1",
     "simple-git-hooks": "2.11.1",
     "tsx": "4.19.2",
@@ -60,5 +61,12 @@
       "esbuild",
       "simple-git-hooks"
     ]
+  },
+  "gkd": {
+    "outDir": "dist",
+    "file": "gkd_originOS.json5",
+    "versionFile": "gkd_originOS.version.json5",
+    "changelog": "CHANGELOG.md",
+    "README.md": "README.md"
   }
 }

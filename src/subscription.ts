@@ -4,12 +4,12 @@ import categories from './categories';
 import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
-  id: 233,
-  name: 'Subscription',
+  id: 120604,
+  name: 'gkd_originOS',
   version: 0,
-  author: 'author',
-  checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  author: 'HHH1206',
+  checkUpdateUrl: './gkd_originOS.version.json5',
+  supportUri: 'https://github.com/HHH120604/gkd_originOS',
   categories,
   globalGroups,
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
